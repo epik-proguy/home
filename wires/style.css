@@ -1,0 +1,81 @@
+#editor_div {
+    position: fixed;
+    width: 500px;
+    height: 50px;
+    border-style: inset;
+    border-width: 5px;
+    padding: 5px;
+    border-color: rgb(179, 178, 178);
+    background-color: rgb(136, 136, 136);
+    z-index: 5d;
+}
+#selectedTile {
+    
+    position: fixed;
+    font-family: Verdana;
+    font-weight: 600;
+    background-color: rgb(110, 110, 110);
+    color: rgb(0, 0, 0);
+    transform: translateY(-2px);
+}
+
+#editorHelp {
+    position: fixed;
+    font-size: large;
+    font-family: Verdana;
+    transform: translateX(15px);
+}
+
+.editor-button {
+    position: fixed;
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+    margin: 0;
+    padding: 0;
+}
+button:focus {
+    outline: none;
+    box-shadow: none;
+}
+#eraser {
+    transform: translateX(150px);
+}
+#wall {
+    transform: translateX(90px);
+}
+#wire {
+    transform: translateX(210px);
+}
+
+#switch {
+    transform: translateX(270px);
+}
+
+#inverter {
+    transform: translateX(330px);
+}
+
+#lamp {
+    transform: translateX(390px);
+}
+
+#delay {
+    transform: translateX(450px);
+}
+
+.canvas {
+    z-index: 1;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+body {
+    background-color: black; 
+    margin: 0;
+    padding: 0;
+    }
