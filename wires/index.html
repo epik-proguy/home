@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wire Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="editorHelp">E - editor</p>
+    <div id="editor_div">
+        <p id="selectedTile" class="selectedTile">wall</p>
+       
+        <button type="button" id="wall" tabindex="-1" class="editor-button">
+            <img src="images/black_wall.png" alt="wall" width="50" height="50">
+        </button>
 
+
+        <button type="button" id="eraser" tabindex="-1" class="editor-button">
+            <img src="images/eraser.png" alt="eraser" width="50" height="50">
+        </button>
+
+
+        <button type="button" id="wire" tabindex="-1" class="editor-button">
+            <img src="images/wire.png" alt="wire" width="50" height="50">
+        </button>
+
+        
+        <button type="button" id="switch" tabindex="-1" class="editor-button">
+            <img src="images/lever.png" alt="switch" width="50" height="50">
+        </button>
+
+
+        <button type="button" id="inverter" tabindex="-1" class="editor-button">
+            <img src="images/inverter.png" alt="inverter" width="50" height="50">
+        </button>
+
+        
+        <button type="button" id="lamp" tabindex="-1" class="editor-button">
+            <img src="images/lamp.png" alt="lamp" width="50" height="50">
+        </button>
+
+        
+        <button type="button" id="delay" tabindex="-1" class="editor-button">
+            <img src="images/delay.png" alt="delay" width="50" height="50">
+        </button>
+    </div>
+
+    <canvas id="canvas" class="canvas" width="600" height="400" tabindex="0"></canvas>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/planck-js/1.4.2/planck.min.js"></script>
+    <script src="tile.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
